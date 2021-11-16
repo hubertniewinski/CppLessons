@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="Assignment_02" targetName="Assignment_02" />
+      <config projectName="Assignment_03" targetName="Assignment_03" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2aced89-0c17-4d27-a780-5318ae78724a" name="Changes" comment="" />
+    <list default="true" id="e0c01363-1dc6-445b-a0d3-3925703f7b69" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +24,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="20xsZ8FgEVsJrr4zDFe7UVuHbTq" />
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="20xsxzww0i8ik5WRCc7SLBm3Ons" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -40,7 +48,12 @@
     <property name="cmake.loaded.for.project" value="true" />
   </component>
   <component name="RunManager">
-    <configuration name="Assignment_02" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Assignment_02" TARGET_NAME="Assignment_02" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Assignment_02" RUN_TARGET_NAME="Assignment_02">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Assignment_03" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Assignment_03" TARGET_NAME="Assignment_03" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Assignment_03" RUN_TARGET_NAME="Assignment_03">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -54,14 +67,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c2aced89-0c17-4d27-a780-5318ae78724a" name="Changes" comment="" />
-      <created>1636997627294</created>
+      <changelist id="e0c01363-1dc6-445b-a0d3-3925703f7b69" name="Changes" comment="" />
+      <created>1636997823916</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1636997627294</updated>
-      <workItem from="1636997632608" duration="115000" />
-      <workItem from="1636997764178" duration="18000" />
-      <workItem from="1636997796114" duration="40000" />
+      <updated>1636997823916</updated>
+      <workItem from="1636997828480" duration="13128000" />
     </task>
     <servers />
   </component>
