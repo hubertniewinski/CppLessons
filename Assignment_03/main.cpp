@@ -64,15 +64,12 @@ void showList(const Node* head){
 }
 
 void deleteList(Node*& head){
-    if(head->next){
-        Node*& next = head->next;
-        std::cout<<"DEL: "<<head->data;std::cout<<" ";
-        head = nullptr;
+    Node*& next = head->next;
+    std::cout<<"DEL: "<<head->data;std::cout<<" ";
+    head = nullptr;
+
+    if(next){
         deleteList(next);
-    }
-    else{
-        std::cout<<"DEL: "<<head->data;std::cout<<" ";
-        head = nullptr;
     }
 }
 
