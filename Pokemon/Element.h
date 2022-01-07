@@ -32,7 +32,7 @@ public:
 
     Element(ElementType element, ElementType* winningElements, int sizeOfWinningElements, ElementType* losingElements, int sizeOfLosingElements);
 
-    float calculateAttackMultiplier(const Element::ElementType& defenseElement);
+    float calculateAttackMultiplier(const Element::ElementType& defenseElement) const;
 
     void getDesc() override;
 

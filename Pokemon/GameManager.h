@@ -17,13 +17,13 @@ public:
     Round currentRound;
     Player player;
 
-    GameManager();
+    GameManager(Player player);
 
-    void startGame(const PokemonBase* allPokemons, int sizeOfPokemons) const;
+    void startGame(const PokemonBase* allPokemons);
 
     void nextRound();
 
-    void fight(const PokemonBase &opponent);
+    void fight(PokemonBase& opponent);
 
     PokemonBase generateOpponent();
 };

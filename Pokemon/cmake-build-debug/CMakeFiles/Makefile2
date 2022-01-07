@@ -70,12 +70,12 @@ clean: CMakeFiles\Pokemon.dir\clean
 CMakeFiles\Pokemon.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pokemon.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pokemon.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pokemon.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pokemon.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CppLessons\Pokemon\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target Pokemon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\CppLessons\Pokemon\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target Pokemon"
 .PHONY : CMakeFiles\Pokemon.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\Pokemon.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\CppLessons\Pokemon\cmake-build-debug\CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CppLessons\Pokemon\cmake-build-debug\CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\Pokemon.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\CppLessons\Pokemon\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\Pokemon.dir\rule

@@ -4,16 +4,68 @@
 
 #include "Player.h"
 #include <iostream>
-#include "NodeHelper.h"
 
 
-Player::Player(PokemonBase *pokemons, int sizeOfPokemons) : pokemons(pokemons), sizeOfPokemons(sizeOfPokemons){
-    if(sizeOfPokemons > 0)
-        currentPokemon = pokemons[0];
+Player::Player(PokemonBase *pokemons, int sizeOfPokemons) : pokemons(pokemons), sizeOfPokemons(sizeOfPokemons){}
+
+template <typename T, typename Pred>
+Node <T>* Player::extract(Node<T>*& head, Pred pred) {
+    Node<T>* headTruePred = nullptr;
+
+    Node<T>* lastTruePred = nullptr;
+    Node<T>* lastFalsePred = nullptr;
+
+    Node<T>* currentNode = head;
+
+    while(currentNode){
+        if(pred(currentNode->data)){
+            if(!lastTruePred)
+                lastTruePred = headTruePred = currentNode;
+            else{
+                lastTruePred = lastTruePred->next = currentNode;
+                lastFalsePred->next = nullptr;
+            }
+        }
+        else{
+            if(!lastFalsePred)
+                lastFalsePred = head = currentNode;
+            else{
+                lastFalsePred = lastFalsePred->next = currentNode;
+                lastTruePred->next = nullptr;
+            }
+        }
+
+        currentNode = currentNode->next;
+    }
+
+    return headTruePred;
+}
+
+template <typename T>
+Node <T>* Player::arrayToList(const T a[], size_t size) {
+    if(size < 1)
+        return nullptr;
+
+    Node<T>* head = new Node<T>{a[0], nullptr};
+    Node<T>* currentNode = head;
+
+    for(int i=1; i < size; i++){
+        Node<T>* next = new Node<T>{a[i], nullptr};
+        currentNode = currentNode->next = next;
+    }
+
+    return head;
 }
 
 bool isAlive(const PokemonBase& pokemon) {
     return pokemon.health > 0;
+}
+
+Node<PokemonBase> *Player::getAlivePokemons() {
+    Node<PokemonBase>* pokemonArr = arrayToList(pokemons, sizeOfPokemons);
+    Node<PokemonBase>* filtered = extract(pokemonArr, isAlive);
+
+    return filtered;
 }
 
 void Player::EvolvePokemon(int step) {
@@ -72,15 +124,12 @@ void Player::MakeMove(const PokemonBase& opponent){
                 break;
             }
             case Move::ChooseChamp:{
-                NodeHelper nodeHelper;
-                NodeHelper::Node<PokemonBase>* pokemonArr = nodeHelper.arrayToList(pokemons, sizeOfPokemons);
-                NodeHelper::Node<PokemonBase>* filtered = nodeHelper.extract(pokemonArr, isAlive);
-                delete &nodeHelper;
+                Node <PokemonBase>* filtered = getAlivePokemons();
 
                 if(filtered != nullptr){
                     std::cout<<"Choose pokemon (pick a number):";
 
-                    NodeHelper::Node<PokemonBase>* next = filtered;
+                    Node<PokemonBase>* next = filtered;
                     int i=1;
 
                     while(next){
@@ -92,7 +141,7 @@ void Player::MakeMove(const PokemonBase& opponent){
                     int input;
                     std::cin>>input;
 
-                    NodeHelper::Node<PokemonBase>* choosed;
+                    Node<PokemonBase>* choosed;
                     next = filtered;
 
                     i=1;

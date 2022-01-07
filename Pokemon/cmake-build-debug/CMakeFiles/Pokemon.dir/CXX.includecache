@@ -12,25 +12,17 @@ string
 IHelper.h
 D:/CppLessons/Pokemon/IHelper.h
 
-D:/CppLessons/Pokemon/IHelper.h
-
-D:/CppLessons/Pokemon/NodeHelper.cpp
-NodeHelper.h
-D:/CppLessons/Pokemon/NodeHelper.h
+D:/CppLessons/Pokemon/GameManager.cpp
+GameManager.h
+D:/CppLessons/Pokemon/GameManager.h
 iostream
 -
-string
--
 
-D:/CppLessons/Pokemon/NodeHelper.h
-
-D:/CppLessons/Pokemon/Player.cpp
+D:/CppLessons/Pokemon/GameManager.h
 Player.h
 D:/CppLessons/Pokemon/Player.h
-iostream
--
-NodeHelper.h
-D:/CppLessons/Pokemon/NodeHelper.h
+
+D:/CppLessons/Pokemon/IHelper.h
 
 D:/CppLessons/Pokemon/Player.h
 PokemonBase.h

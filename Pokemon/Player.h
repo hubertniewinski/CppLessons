@@ -7,6 +7,12 @@
 
 #include "PokemonBase.h"
 
+template <typename T>
+struct Node {
+    T data;
+    Node* next;
+};
+
 class Player {
 public:
     enum Move{
@@ -28,6 +34,14 @@ public:
     void MakeMove(const PokemonBase& opponent);
 
     void EvolvePokemon(int step);
+
+    template <typename T, typename Pred>
+    Node <T>* extract(Node<T>*& head, Pred pred);
+
+    template <typename T>
+    Node <T>* arrayToList(const T a[], size_t size);
+
+    Node <PokemonBase>* getAlivePokemons();
 };
 
 

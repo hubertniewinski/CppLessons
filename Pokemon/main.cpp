@@ -30,9 +30,20 @@ int main() {
             Element(Element::ElementType::Steel, steelWinning, std::size(steelWinning), steelLosing, std::size(steelLosing)),
     };
 
-    GameManager gm;
+    Player player(nullptr, 6);
+    GameManager gm(player);
 
-    gm.startGame(nullptr ,0);
+    PokemonBase pokemons[6] = {
+            PokemonBase("xx", 1,1,1,1,1,1,elements[0]),
+            PokemonBase("aa", 1,1,1,1,1,1,elements[1]),
+            PokemonBase("dd", 1,1,1,1,1,1,elements[2]),
+            PokemonBase("ee", 1,1,1,1,1,1,elements[3]),
+            PokemonBase("gg", 1,1,1,1,1,1,elements[4]),
+            PokemonBase("nn", 1,1,1,1,1,1,elements[5]),
+    };
+
+    gm.startGame(pokemons);
+    player.currentPokemon = player.pokemons[0];
     gm.currentRound.opponentNumber = 1;
     gm.currentRound.numberRound = 1;
     PokemonBase opponent = gm.generateOpponent();

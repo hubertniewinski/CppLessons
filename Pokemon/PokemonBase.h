@@ -8,12 +8,19 @@
 #include <functional>
 #include "Element.h"
 #include <string>
+#include "Player.h"
+
+struct SpecialActionCounter{
+    int activeForRounds;
+    std::function<void(PokemonBase)> apply;
+    std::function<void(PokemonBase)> reset;
+};
 
 class PokemonBase {
     int roundsToSpecialAction;
     int expForWin;
 
-    virtual void pokemonSpecialAction(const PokemonBase& opponent);
+    virtual void pokemonSpecialAction(const PokemonBase& opponent, SpecialActionCounter specialActionCounter);
 public:
     int strength;
     int agility;
@@ -23,12 +30,7 @@ public:
     bool canEvolve;
     int expForEvolve;
 
-    struct SpecialActionCounter{
-        int activeForRounds;
-        std::function<void(PokemonBase)> specialAction;
-    };
-
-    SpecialActionCounter pokemonSpecialActionCounter = {0, nullptr};
+    Node<SpecialActionCounter>* specialActionCounters = nullptr;
     Element element;
     std::string name;
 
@@ -37,13 +39,18 @@ public:
 
     void getDesc();
 
-    void attack(const PokemonBase& opponent) const;
+    void attack(PokemonBase opponent);
 
-    void getAttacked(const PokemonBase& opponent, int value);
+    void getAttacked(PokemonBase* opponent, int value);
 
     bool trySpecialAction(const PokemonBase& opponent);
 
     virtual void evolve(bool strength, bool agility, bool health);
+
+    void resetRound();
+
+    template <typename T, typename Pred>
+    Node <T>* extract(Node<T>*& head, Pred pred);
 };
 
 

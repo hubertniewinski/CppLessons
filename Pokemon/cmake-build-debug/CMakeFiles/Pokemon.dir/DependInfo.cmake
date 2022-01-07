@@ -11,7 +11,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/CppLessons/Pokemon/Element.cpp" "D:/CppLessons/Pokemon/cmake-build-debug/CMakeFiles/Pokemon.dir/Element.cpp.obj"
   "D:/CppLessons/Pokemon/GameManager.cpp" "D:/CppLessons/Pokemon/cmake-build-debug/CMakeFiles/Pokemon.dir/GameManager.cpp.obj"
   "D:/CppLessons/Pokemon/IHelper.cpp" "D:/CppLessons/Pokemon/cmake-build-debug/CMakeFiles/Pokemon.dir/IHelper.cpp.obj"
-  "D:/CppLessons/Pokemon/NodeHelper.cpp" "D:/CppLessons/Pokemon/cmake-build-debug/CMakeFiles/Pokemon.dir/NodeHelper.cpp.obj"
   "D:/CppLessons/Pokemon/Player.cpp" "D:/CppLessons/Pokemon/cmake-build-debug/CMakeFiles/Pokemon.dir/Player.cpp.obj"
   "D:/CppLessons/Pokemon/PokemonBase.cpp" "D:/CppLessons/Pokemon/cmake-build-debug/CMakeFiles/Pokemon.dir/PokemonBase.cpp.obj"
   "D:/CppLessons/Pokemon/main.cpp" "D:/CppLessons/Pokemon/cmake-build-debug/CMakeFiles/Pokemon.dir/main.cpp.obj"

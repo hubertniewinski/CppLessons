@@ -28,7 +28,7 @@ std::string Element::getElementType(const int elementType) const{
     }
 }
 
-float Element::calculateAttackMultiplier(const Element::ElementType& defenseElement){
+float Element::calculateAttackMultiplier(const Element::ElementType& defenseElement) const{
     for(int i=0;i<sizeOfWinningElements;i++){
         if(winningElements[i] == defenseElement)
             return 1.2f;

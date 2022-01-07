@@ -100,12 +100,6 @@
 		<Unit filename="D:/CppLessons/Pokemon/IHelper.h">
 			<Option target="Pokemon"/>
 		</Unit>
-		<Unit filename="D:/CppLessons/Pokemon/NodeHelper.cpp">
-			<Option target="Pokemon"/>
-		</Unit>
-		<Unit filename="D:/CppLessons/Pokemon/NodeHelper.h">
-			<Option target="Pokemon"/>
-		</Unit>
 		<Unit filename="D:/CppLessons/Pokemon/Player.cpp">
 			<Option target="Pokemon"/>
 		</Unit>

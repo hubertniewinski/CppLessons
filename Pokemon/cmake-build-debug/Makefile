@@ -190,30 +190,6 @@ IHelper.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pokemon.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pokemon.dir\IHelper.cpp.s
 .PHONY : IHelper.cpp.s
 
-NodeHelper.obj: NodeHelper.cpp.obj
-.PHONY : NodeHelper.obj
-
-# target to build an object file
-NodeHelper.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pokemon.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pokemon.dir\NodeHelper.cpp.obj
-.PHONY : NodeHelper.cpp.obj
-
-NodeHelper.i: NodeHelper.cpp.i
-.PHONY : NodeHelper.i
-
-# target to preprocess a source file
-NodeHelper.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pokemon.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pokemon.dir\NodeHelper.cpp.i
-.PHONY : NodeHelper.cpp.i
-
-NodeHelper.s: NodeHelper.cpp.s
-.PHONY : NodeHelper.s
-
-# target to generate assembly for a file
-NodeHelper.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pokemon.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pokemon.dir\NodeHelper.cpp.s
-.PHONY : NodeHelper.cpp.s
-
 Player.obj: Player.cpp.obj
 .PHONY : Player.obj
 
@@ -304,9 +280,6 @@ help:
 	@echo ... IHelper.obj
 	@echo ... IHelper.i
 	@echo ... IHelper.s
-	@echo ... NodeHelper.obj
-	@echo ... NodeHelper.i
-	@echo ... NodeHelper.s
 	@echo ... Player.obj
 	@echo ... Player.i
 	@echo ... Player.s
