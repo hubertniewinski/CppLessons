@@ -5,27 +5,35 @@ CMakeFiles\Pokemon.dir\Element.cpp.obj: ..\Element.cpp
 CMakeFiles\Pokemon.dir\Element.cpp.obj: ..\Element.h
 CMakeFiles\Pokemon.dir\Element.cpp.obj: ..\IHelper.h
 
-CMakeFiles\Pokemon.dir\GameManager.cpp.obj: GameManager.cpp
-CMakeFiles\Pokemon.dir\GameManager.cpp.obj: GameManager.h
+CMakeFiles\Pokemon.dir\GameManager.cpp.obj: ..\Element.h
+CMakeFiles\Pokemon.dir\GameManager.cpp.obj: ..\GameManager.cpp
+CMakeFiles\Pokemon.dir\GameManager.cpp.obj: ..\GameManager.h
+CMakeFiles\Pokemon.dir\GameManager.cpp.obj: ..\IHelper.h
+CMakeFiles\Pokemon.dir\GameManager.cpp.obj: ..\Player.h
+CMakeFiles\Pokemon.dir\GameManager.cpp.obj: ..\PokemonBase.h
 
 CMakeFiles\Pokemon.dir\IHelper.cpp.obj: ..\IHelper.cpp
 CMakeFiles\Pokemon.dir\IHelper.cpp.obj: ..\IHelper.h
 
-CMakeFiles\Pokemon.dir\NodeHelper.cpp.obj: NodeHelper.cpp
-CMakeFiles\Pokemon.dir\NodeHelper.cpp.obj: NodeHelper.h
+CMakeFiles\Pokemon.dir\NodeHelper.cpp.obj: ..\NodeHelper.cpp
+CMakeFiles\Pokemon.dir\NodeHelper.cpp.obj: ..\NodeHelper.h
 
 CMakeFiles\Pokemon.dir\Player.cpp.obj: ..\Element.h
 CMakeFiles\Pokemon.dir\Player.cpp.obj: ..\IHelper.h
-CMakeFiles\Pokemon.dir\Player.cpp.obj: Player.cpp
-CMakeFiles\Pokemon.dir\Player.cpp.obj: Player.h
-CMakeFiles\Pokemon.dir\Player.cpp.obj: PokemonBase.h
+CMakeFiles\Pokemon.dir\Player.cpp.obj: ..\NodeHelper.h
+CMakeFiles\Pokemon.dir\Player.cpp.obj: ..\Player.cpp
+CMakeFiles\Pokemon.dir\Player.cpp.obj: ..\Player.h
+CMakeFiles\Pokemon.dir\Player.cpp.obj: ..\PokemonBase.h
 
 CMakeFiles\Pokemon.dir\PokemonBase.cpp.obj: ..\Element.h
 CMakeFiles\Pokemon.dir\PokemonBase.cpp.obj: ..\IHelper.h
-CMakeFiles\Pokemon.dir\PokemonBase.cpp.obj: PokemonBase.cpp
-CMakeFiles\Pokemon.dir\PokemonBase.cpp.obj: PokemonBase.h
+CMakeFiles\Pokemon.dir\PokemonBase.cpp.obj: ..\PokemonBase.cpp
+CMakeFiles\Pokemon.dir\PokemonBase.cpp.obj: ..\PokemonBase.h
 
 CMakeFiles\Pokemon.dir\main.cpp.obj: ..\Element.h
+CMakeFiles\Pokemon.dir\main.cpp.obj: ..\GameManager.h
 CMakeFiles\Pokemon.dir\main.cpp.obj: ..\IHelper.h
+CMakeFiles\Pokemon.dir\main.cpp.obj: ..\Player.h
+CMakeFiles\Pokemon.dir\main.cpp.obj: ..\PokemonBase.h
 CMakeFiles\Pokemon.dir\main.cpp.obj: ..\main.cpp
 

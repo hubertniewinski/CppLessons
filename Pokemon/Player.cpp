@@ -72,8 +72,10 @@ void Player::MakeMove(const PokemonBase& opponent){
                 break;
             }
             case Move::ChooseChamp:{
-                NodeHelper::Node<PokemonBase>* pokemonArr = NodeHelper::arrayToList(pokemons, sizeOfPokemons);
-                NodeHelper::Node<PokemonBase>* filtered = NodeHelper::extract(pokemonArr, isAlive);
+                NodeHelper nodeHelper;
+                NodeHelper::Node<PokemonBase>* pokemonArr = nodeHelper.arrayToList(pokemons, sizeOfPokemons);
+                NodeHelper::Node<PokemonBase>* filtered = nodeHelper.extract(pokemonArr, isAlive);
+                delete &nodeHelper;
 
                 if(filtered != nullptr){
                     std::cout<<"Choose pokemon (pick a number):";

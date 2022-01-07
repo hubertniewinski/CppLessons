@@ -7,7 +7,7 @@
 #include <string>
 
 template <typename T>
-void NodeHelper::showList(const Node<T> *head) {
+void NodeHelper::showList(const Node<T>* head) {
     while(head){
         std::cout<<head->data<<" ";
         head = head->next;
@@ -17,7 +17,7 @@ void NodeHelper::showList(const Node<T> *head) {
 }
 
 template <typename T>
-NodeHelper::Node <T> *NodeHelper::arrayToList(const T *a, size_t size) {
+NodeHelper::Node <T> *NodeHelper::arrayToList(const T a[], size_t size) {
     if(size < 1)
         return nullptr;
 
@@ -33,7 +33,7 @@ NodeHelper::Node <T> *NodeHelper::arrayToList(const T *a, size_t size) {
 }
 
 template <typename T>
-void NodeHelper::deleteList(Node<T> *&head) {
+void NodeHelper::deleteList(Node<T>*& head) {
     Node<T>* currentNode = head;
 
     while(currentNode){
@@ -47,7 +47,7 @@ void NodeHelper::deleteList(Node<T> *&head) {
 }
 
 template <typename T, typename Pred>
-NodeHelper::Node <T> *NodeHelper::extract(Node<T> *&head, Pred pred) {
+NodeHelper::Node <T> *NodeHelper::extract(Node<T>*& head, Pred pred) {
     Node<T>* headTruePred = nullptr;
 
     Node<T>* lastTruePred = nullptr;

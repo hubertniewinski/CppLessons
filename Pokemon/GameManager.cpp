@@ -5,6 +5,10 @@
 #include "GameManager.h"
 #include <iostream>
 
+GameManager::GameManager() : player(player) {
+
+}
+
 void GameManager::startGame(const PokemonBase* allPokemons, int sizeOfPokemons) const {
     if(player.pokemons == nullptr){
         if(sizeOfPokemons < 7){
@@ -37,6 +41,11 @@ void GameManager::startGame(const PokemonBase* allPokemons, int sizeOfPokemons) 
             }
         }
     }
+}
+
+PokemonBase GameManager::generateOpponent() {
+    PokemonBase opponent;
+    return opponent;
 }
 
 void GameManager::nextRound() {

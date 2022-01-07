@@ -14,37 +14,33 @@ D:/CppLessons/Pokemon/IHelper.h
 
 D:/CppLessons/Pokemon/IHelper.h
 
-D:/CppLessons/Pokemon/cmake-build-debug/GameManager.cpp
-GameManager.h
-D:/CppLessons/Pokemon/cmake-build-debug/GameManager.h
-
-D:/CppLessons/Pokemon/cmake-build-debug/GameManager.h
-
-D:/CppLessons/Pokemon/cmake-build-debug/NodeHelper.cpp
+D:/CppLessons/Pokemon/NodeHelper.cpp
 NodeHelper.h
-D:/CppLessons/Pokemon/cmake-build-debug/NodeHelper.h
+D:/CppLessons/Pokemon/NodeHelper.h
 iostream
 -
 string
 -
 
-D:/CppLessons/Pokemon/cmake-build-debug/NodeHelper.h
+D:/CppLessons/Pokemon/NodeHelper.h
 
-D:/CppLessons/Pokemon/cmake-build-debug/Player.cpp
+D:/CppLessons/Pokemon/Player.cpp
 Player.h
-D:/CppLessons/Pokemon/cmake-build-debug/Player.h
+D:/CppLessons/Pokemon/Player.h
+iostream
+-
+NodeHelper.h
+D:/CppLessons/Pokemon/NodeHelper.h
 
-D:/CppLessons/Pokemon/cmake-build-debug/Player.h
+D:/CppLessons/Pokemon/Player.h
 PokemonBase.h
-D:/CppLessons/Pokemon/cmake-build-debug/PokemonBase.h
+D:/CppLessons/Pokemon/PokemonBase.h
 
-D:/CppLessons/Pokemon/cmake-build-debug/PokemonBase.cpp
-PokemonBase.h
-D:/CppLessons/Pokemon/cmake-build-debug/PokemonBase.h
-
-D:/CppLessons/Pokemon/cmake-build-debug/PokemonBase.h
+D:/CppLessons/Pokemon/PokemonBase.h
 functional
 -
-../Element.h
+Element.h
 D:/CppLessons/Pokemon/Element.h
+string
+-
 

@@ -6,26 +6,34 @@ CMakeFiles/Pokemon.dir/Element.cpp.obj
  D:/CppLessons/Pokemon/Element.h
  D:/CppLessons/Pokemon/IHelper.h
 CMakeFiles/Pokemon.dir/GameManager.cpp.obj
- D:/CppLessons/Pokemon/cmake-build-debug/GameManager.cpp
- D:/CppLessons/Pokemon/cmake-build-debug/GameManager.h
+ D:/CppLessons/Pokemon/Element.h
+ D:/CppLessons/Pokemon/GameManager.cpp
+ D:/CppLessons/Pokemon/GameManager.h
+ D:/CppLessons/Pokemon/IHelper.h
+ D:/CppLessons/Pokemon/Player.h
+ D:/CppLessons/Pokemon/PokemonBase.h
 CMakeFiles/Pokemon.dir/IHelper.cpp.obj
  D:/CppLessons/Pokemon/IHelper.cpp
  D:/CppLessons/Pokemon/IHelper.h
 CMakeFiles/Pokemon.dir/NodeHelper.cpp.obj
- D:/CppLessons/Pokemon/cmake-build-debug/NodeHelper.cpp
- D:/CppLessons/Pokemon/cmake-build-debug/NodeHelper.h
+ D:/CppLessons/Pokemon/NodeHelper.cpp
+ D:/CppLessons/Pokemon/NodeHelper.h
 CMakeFiles/Pokemon.dir/Player.cpp.obj
  D:/CppLessons/Pokemon/Element.h
  D:/CppLessons/Pokemon/IHelper.h
- D:/CppLessons/Pokemon/cmake-build-debug/Player.cpp
- D:/CppLessons/Pokemon/cmake-build-debug/Player.h
- D:/CppLessons/Pokemon/cmake-build-debug/PokemonBase.h
+ D:/CppLessons/Pokemon/NodeHelper.h
+ D:/CppLessons/Pokemon/Player.cpp
+ D:/CppLessons/Pokemon/Player.h
+ D:/CppLessons/Pokemon/PokemonBase.h
 CMakeFiles/Pokemon.dir/PokemonBase.cpp.obj
  D:/CppLessons/Pokemon/Element.h
  D:/CppLessons/Pokemon/IHelper.h
- D:/CppLessons/Pokemon/cmake-build-debug/PokemonBase.cpp
- D:/CppLessons/Pokemon/cmake-build-debug/PokemonBase.h
+ D:/CppLessons/Pokemon/PokemonBase.cpp
+ D:/CppLessons/Pokemon/PokemonBase.h
 CMakeFiles/Pokemon.dir/main.cpp.obj
  D:/CppLessons/Pokemon/Element.h
+ D:/CppLessons/Pokemon/GameManager.h
  D:/CppLessons/Pokemon/IHelper.h
+ D:/CppLessons/Pokemon/Player.h
+ D:/CppLessons/Pokemon/PokemonBase.h
  D:/CppLessons/Pokemon/main.cpp
