@@ -88,34 +88,34 @@
 		<Unit filename="D:/CppLessons/Pokemon/Element.h">
 			<Option target="Pokemon"/>
 		</Unit>
+		<Unit filename="D:/CppLessons/Pokemon/GameManager.cpp">
+			<Option target="Pokemon"/>
+		</Unit>
+		<Unit filename="D:/CppLessons/Pokemon/GameManager.h">
+			<Option target="Pokemon"/>
+		</Unit>
 		<Unit filename="D:/CppLessons/Pokemon/IHelper.cpp">
 			<Option target="Pokemon"/>
 		</Unit>
 		<Unit filename="D:/CppLessons/Pokemon/IHelper.h">
 			<Option target="Pokemon"/>
 		</Unit>
-		<Unit filename="D:/CppLessons/Pokemon/cmake-build-debug/GameManager.cpp">
+		<Unit filename="D:/CppLessons/Pokemon/NodeHelper.cpp">
 			<Option target="Pokemon"/>
 		</Unit>
-		<Unit filename="D:/CppLessons/Pokemon/cmake-build-debug/GameManager.h">
+		<Unit filename="D:/CppLessons/Pokemon/NodeHelper.h">
 			<Option target="Pokemon"/>
 		</Unit>
-		<Unit filename="D:/CppLessons/Pokemon/cmake-build-debug/NodeHelper.cpp">
+		<Unit filename="D:/CppLessons/Pokemon/Player.cpp">
 			<Option target="Pokemon"/>
 		</Unit>
-		<Unit filename="D:/CppLessons/Pokemon/cmake-build-debug/NodeHelper.h">
+		<Unit filename="D:/CppLessons/Pokemon/Player.h">
 			<Option target="Pokemon"/>
 		</Unit>
-		<Unit filename="D:/CppLessons/Pokemon/cmake-build-debug/Player.cpp">
+		<Unit filename="D:/CppLessons/Pokemon/PokemonBase.cpp">
 			<Option target="Pokemon"/>
 		</Unit>
-		<Unit filename="D:/CppLessons/Pokemon/cmake-build-debug/Player.h">
-			<Option target="Pokemon"/>
-		</Unit>
-		<Unit filename="D:/CppLessons/Pokemon/cmake-build-debug/PokemonBase.cpp">
-			<Option target="Pokemon"/>
-		</Unit>
-		<Unit filename="D:/CppLessons/Pokemon/cmake-build-debug/PokemonBase.h">
+		<Unit filename="D:/CppLessons/Pokemon/PokemonBase.h">
 			<Option target="Pokemon"/>
 		</Unit>
 		<Unit filename="D:/CppLessons/Pokemon/main.cpp">

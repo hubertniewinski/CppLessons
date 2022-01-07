@@ -94,22 +94,22 @@ CMakeFiles\Pokemon.dir\Element.cpp.s: cmake_force
 <<
 
 CMakeFiles\Pokemon.dir\PokemonBase.cpp.obj: CMakeFiles\Pokemon.dir\flags.make
-CMakeFiles\Pokemon.dir\PokemonBase.cpp.obj: PokemonBase.cpp
+CMakeFiles\Pokemon.dir\PokemonBase.cpp.obj: ..\PokemonBase.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CppLessons\Pokemon\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Pokemon.dir/PokemonBase.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Pokemon.dir\PokemonBase.cpp.obj /FdCMakeFiles\Pokemon.dir\ /FS -c D:\CppLessons\Pokemon\cmake-build-debug\PokemonBase.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Pokemon.dir\PokemonBase.cpp.obj /FdCMakeFiles\Pokemon.dir\ /FS -c D:\CppLessons\Pokemon\PokemonBase.cpp
 <<
 
 CMakeFiles\Pokemon.dir\PokemonBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pokemon.dir/PokemonBase.cpp.i"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe > CMakeFiles\Pokemon.dir\PokemonBase.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CppLessons\Pokemon\cmake-build-debug\PokemonBase.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CppLessons\Pokemon\PokemonBase.cpp
 <<
 
 CMakeFiles\Pokemon.dir\PokemonBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pokemon.dir/PokemonBase.cpp.s"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Pokemon.dir\PokemonBase.cpp.s /c D:\CppLessons\Pokemon\cmake-build-debug\PokemonBase.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Pokemon.dir\PokemonBase.cpp.s /c D:\CppLessons\Pokemon\PokemonBase.cpp
 <<
 
 CMakeFiles\Pokemon.dir\IHelper.cpp.obj: CMakeFiles\Pokemon.dir\flags.make
@@ -132,60 +132,60 @@ CMakeFiles\Pokemon.dir\IHelper.cpp.s: cmake_force
 <<
 
 CMakeFiles\Pokemon.dir\GameManager.cpp.obj: CMakeFiles\Pokemon.dir\flags.make
-CMakeFiles\Pokemon.dir\GameManager.cpp.obj: GameManager.cpp
+CMakeFiles\Pokemon.dir\GameManager.cpp.obj: ..\GameManager.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CppLessons\Pokemon\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Pokemon.dir/GameManager.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Pokemon.dir\GameManager.cpp.obj /FdCMakeFiles\Pokemon.dir\ /FS -c D:\CppLessons\Pokemon\cmake-build-debug\GameManager.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Pokemon.dir\GameManager.cpp.obj /FdCMakeFiles\Pokemon.dir\ /FS -c D:\CppLessons\Pokemon\GameManager.cpp
 <<
 
 CMakeFiles\Pokemon.dir\GameManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pokemon.dir/GameManager.cpp.i"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe > CMakeFiles\Pokemon.dir\GameManager.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CppLessons\Pokemon\cmake-build-debug\GameManager.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CppLessons\Pokemon\GameManager.cpp
 <<
 
 CMakeFiles\Pokemon.dir\GameManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pokemon.dir/GameManager.cpp.s"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Pokemon.dir\GameManager.cpp.s /c D:\CppLessons\Pokemon\cmake-build-debug\GameManager.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Pokemon.dir\GameManager.cpp.s /c D:\CppLessons\Pokemon\GameManager.cpp
 <<
 
 CMakeFiles\Pokemon.dir\Player.cpp.obj: CMakeFiles\Pokemon.dir\flags.make
-CMakeFiles\Pokemon.dir\Player.cpp.obj: Player.cpp
+CMakeFiles\Pokemon.dir\Player.cpp.obj: ..\Player.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CppLessons\Pokemon\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Pokemon.dir/Player.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Pokemon.dir\Player.cpp.obj /FdCMakeFiles\Pokemon.dir\ /FS -c D:\CppLessons\Pokemon\cmake-build-debug\Player.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Pokemon.dir\Player.cpp.obj /FdCMakeFiles\Pokemon.dir\ /FS -c D:\CppLessons\Pokemon\Player.cpp
 <<
 
 CMakeFiles\Pokemon.dir\Player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pokemon.dir/Player.cpp.i"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe > CMakeFiles\Pokemon.dir\Player.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CppLessons\Pokemon\cmake-build-debug\Player.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CppLessons\Pokemon\Player.cpp
 <<
 
 CMakeFiles\Pokemon.dir\Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pokemon.dir/Player.cpp.s"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Pokemon.dir\Player.cpp.s /c D:\CppLessons\Pokemon\cmake-build-debug\Player.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Pokemon.dir\Player.cpp.s /c D:\CppLessons\Pokemon\Player.cpp
 <<
 
 CMakeFiles\Pokemon.dir\NodeHelper.cpp.obj: CMakeFiles\Pokemon.dir\flags.make
-CMakeFiles\Pokemon.dir\NodeHelper.cpp.obj: NodeHelper.cpp
+CMakeFiles\Pokemon.dir\NodeHelper.cpp.obj: ..\NodeHelper.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CppLessons\Pokemon\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Pokemon.dir/NodeHelper.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Pokemon.dir\NodeHelper.cpp.obj /FdCMakeFiles\Pokemon.dir\ /FS -c D:\CppLessons\Pokemon\cmake-build-debug\NodeHelper.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Pokemon.dir\NodeHelper.cpp.obj /FdCMakeFiles\Pokemon.dir\ /FS -c D:\CppLessons\Pokemon\NodeHelper.cpp
 <<
 
 CMakeFiles\Pokemon.dir\NodeHelper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pokemon.dir/NodeHelper.cpp.i"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe > CMakeFiles\Pokemon.dir\NodeHelper.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CppLessons\Pokemon\cmake-build-debug\NodeHelper.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CppLessons\Pokemon\NodeHelper.cpp
 <<
 
 CMakeFiles\Pokemon.dir\NodeHelper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pokemon.dir/NodeHelper.cpp.s"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Pokemon.dir\NodeHelper.cpp.s /c D:\CppLessons\Pokemon\cmake-build-debug\NodeHelper.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Pokemon.dir\NodeHelper.cpp.s /c D:\CppLessons\Pokemon\NodeHelper.cpp
 <<
 
 # Object files for target Pokemon

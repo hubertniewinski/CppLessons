@@ -15,10 +15,17 @@ public:
     };
 
     Round currentRound;
+    Player player;
 
-    void startGame(const Player& player, const PokemonBase* pokemonBase, int sizeOfPokemons) const;
+    GameManager();
 
-    void startRound();
+    void startGame(const PokemonBase* allPokemons, int sizeOfPokemons) const;
+
+    void nextRound();
+
+    void fight(const PokemonBase &opponent);
+
+    PokemonBase generateOpponent();
 };
 
 

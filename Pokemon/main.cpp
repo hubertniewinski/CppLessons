@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Element.h"
+#include "GameManager.h"
 
 int main() {
     Element::ElementType waterWinning[] = {Element::ElementType::Earth, Element::ElementType::Fire};
@@ -29,7 +30,13 @@ int main() {
             Element(Element::ElementType::Steel, steelWinning, std::size(steelWinning), steelLosing, std::size(steelLosing)),
     };
 
+    GameManager gm;
 
+    gm.startGame(nullptr ,0);
+    gm.currentRound.opponentNumber = 1;
+    gm.currentRound.numberRound = 1;
+    PokemonBase opponent = gm.generateOpponent();
+    gm.fight(opponent);
 
     return 0;
 }

@@ -6,7 +6,7 @@
 #define POKEMON_POKEMONBASE_H
 
 #include <functional>
-#include "../Element.h"
+#include "Element.h"
 #include <string>
 
 class PokemonBase {

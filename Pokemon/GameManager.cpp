@@ -5,7 +5,7 @@
 #include "GameManager.h"
 #include <iostream>
 
-void GameManager::startGame(const Player& player, const PokemonBase* allPokemons, int sizeOfPokemons) const {
+void GameManager::startGame(const PokemonBase* allPokemons, int sizeOfPokemons) const {
     if(player.pokemons == nullptr){
         if(sizeOfPokemons < 7){
             std::cout<<"Something went wrong!"<<std::endl;
@@ -39,6 +39,22 @@ void GameManager::startGame(const Player& player, const PokemonBase* allPokemons
     }
 }
 
-void GameManager::startRound() {
-    
+void GameManager::nextRound() {
+    if(currentRound.opponentNumber < 4){
+        std::cout<<"Next opponent!"<<std::endl;
+        currentRound.opponentNumber+=1;
+    }
+    else{
+        if(currentRound.numberRound == 4 && currentRound.opponentNumber == 4){
+            std::cout<<"Congratulations! You win!"<<std::endl;
+        }
+        else{
+            std::cout<<"Next round!"<<std::endl;
+            currentRound.numberRound+=1;
+            currentRound.opponentNumber=0;
+        }
+    }
+}
+
+void GameManager::fight(const PokemonBase &opponent) {
 }

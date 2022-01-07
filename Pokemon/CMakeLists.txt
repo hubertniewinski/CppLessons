@@ -3,4 +3,4 @@ project(Pokemon)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Pokemon main.cpp Element.cpp Element.h cmake-build-debug/PokemonBase.cpp cmake-build-debug/PokemonBase.h IHelper.cpp IHelper.h cmake-build-debug/GameManager.cpp cmake-build-debug/GameManager.h cmake-build-debug/Player.cpp cmake-build-debug/Player.h cmake-build-debug/NodeHelper.cpp cmake-build-debug/NodeHelper.h)
+add_executable(Pokemon main.cpp Element.cpp Element.h PokemonBase.cpp PokemonBase.h IHelper.cpp IHelper.h GameManager.cpp GameManager.h Player.cpp Player.h NodeHelper.cpp NodeHelper.h)
